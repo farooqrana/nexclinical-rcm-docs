@@ -5,9 +5,11 @@
 
 ## Executive Summary
 
-NexClinical is a next-generation Revenue Cycle Management (RCM) platform specifically designed for rehabilitation clinics, physical therapy practices, and outpatient healthcare facilities. Built on AWS cloud infrastructure with cutting-edge AI capabilities, NexClinical automates up to 70% of manual billing tasks, reduces claim denials by 45%, and accelerates payment cycles by 65% compared to traditional RCM systems.
+NexClinical is a next-generation Revenue Cycle Management (RCM) platform designed for all healthcare specialties - from orthopedics and physical therapy to primary care, cardiology, pain management, and multi-specialty groups. Built on AWS cloud infrastructure with cutting-edge AI capabilities, NexClinical automates up to 70% of manual billing tasks, reduces claim denials by 45%, and accelerates payment cycles by 65% compared to traditional RCM systems.
 
-**Key Value Proposition**: Turn your billing department from a cost center into a profit driver with intelligent automation, real-time analytics, and AI-powered medical coding.
+**Supported Specialties**: Orthopedics, Physical Therapy, Primary Care, Cardiology, Pain Management, Surgery Centers, Multi-Specialty Groups, Chiropractic, Behavioral Health, and more.
+
+**Key Value Proposition**: Turn your billing department from a cost center into a profit driver with intelligent automation, real-time analytics, and AI-powered medical coding that works across all medical specialties.
 
 ---
 
@@ -63,6 +65,8 @@ Claim Submission
 
 #### Real-World Example: Sun Rise Rehab (Physical Therapy Practice)
 
+*Note: While this example features a PT practice, NexClinical's AI coding works across all medical specialties including orthopedics, cardiology, primary care, pain management, and more.*
+
 **Before NexClinical:**
 - **Coding Staff**: 2 full-time certified coders ($110K combined salary)
 - **Coding Time**: 18 minutes average per claim
@@ -105,7 +109,9 @@ Claim Submission
 - **Processing Speed**: 100x faster than manual coding
 - **Cost per Claim**: $0.08 (vs. $2.50 for human coder)
 
-#### Example: Physical Therapy Note Auto-Coding
+#### Example: Clinical Note Auto-Coding (Physical Therapy)
+
+*NexClinical AI supports all medical specialties. Similar examples available for orthopedic surgery, cardiology procedures, primary care E&M visits, pain management injections, etc.*
 
 **Clinical Documentation:**
 ```
@@ -264,10 +270,10 @@ Action: Accept suggestion #1 | Manual search | Create adjustment
 #### The $2.4 Billion Problem
 
 **Industry Data:**
-- Personal injury claims represent 15-30% of rehab clinic revenue
+- Personal injury claims represent 15-30% of orthopedic, pain management, chiropractic, and rehab practice revenue
 - Average payment delay: 12-18 months
 - 30% of attorney lien claims never get followed up (write-offs)
-- Practices lose $2.4B annually to abandoned attorney claims (ACA estimate)
+- Healthcare practices lose $2.4B annually to abandoned attorney claims (ACA estimate)
 
 #### NexClinical Attorney Portal
 
@@ -327,7 +333,7 @@ This is a friendly reminder regarding the outstanding balance for your client,
 
 Case Details:
 - Treatment Dates: 03/15/2024 - 05/22/2024
-- Services: Physical Therapy (24 visits)
+- Services: [Orthopedic Surgery / Physical Therapy / Pain Management / etc.]
 - HIPAA-Compliant Records: Available in portal
 
 We understand settlement negotiations take time. Please log into your secure 
@@ -1211,13 +1217,16 @@ Day 3:
 
 ### **Q: What if we have unusual specialty codes?**
 **A:** AWS Comprehend Medical works for any medical specialty. We've successfully deployed for:
+- Orthopedics / Sports Medicine / Surgery Centers
 - Physical Therapy / Occupational Therapy
-- Chiropractic
-- Orthopedics / Sports Medicine
-- Pain Management
-- Behavioral Health
+- Primary Care / Family Medicine / Internal Medicine
+- Cardiology / Cardiovascular Surgery
+- Pain Management / Anesthesiology
+- Chiropractic / Alternative Medicine
+- Behavioral Health / Psychiatry / Psychology
+- Multi-Specialty Groups
 
-**Specialty Training**: AI learns your specific code patterns within 30-60 days.
+**Specialty Training**: AI learns your specific code patterns within 30-60 days. Works with E&M codes, procedures, surgery codes, therapy codes, and specialty-specific modifiers.
 
 ---
 

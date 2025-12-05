@@ -1,4 +1,11 @@
 theme: jekyll-theme-cayman
 title: NexClinical RCM Platform
-description: AI-Powered Revenue Cycle Management for Healthcare Practices
+description: AI-Powered Revenue Cycle Management for All Healthcare Specialties
 show_downloads: false
+
+# Navigation
+navigation:
+  - title: Executive Summary
+    url: /executive-summary
+  - title: Full Documentation
+    url: /
