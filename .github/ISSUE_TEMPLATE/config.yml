@@ -1,0 +1,8 @@
+blank_issues_enabled: false
+contact_links:
+  - name: 📧 Private Feedback
+    url: https://github.com/farooqrana
+    about: Send private feedback via GitHub direct message
+  - name: 📚 Full Documentation
+    url: https://github.com/farooqrana/nexclinical-rcm-docs
+    about: Read the complete 40-page platform overview

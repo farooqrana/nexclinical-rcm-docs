@@ -1,0 +1,175 @@
+name: 🩺 Healthcare Provider Feedback
+description: Share your thoughts about the NexClinical RCM Platform
+title: "[FEEDBACK] "
+labels: ["feedback", "needs-review"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        ## Thank you for your feedback!
+        
+        We're seeking honest input from doctors and practice managers. Your responses help us understand real-world needs and concerns.
+        
+        **Privacy**: You can submit anonymously. We won't share individual responses publicly without permission.
+
+  - type: dropdown
+    id: role
+    attributes:
+      label: Your Role
+      description: What is your primary role?
+      options:
+        - Physician/Provider
+        - Practice Manager
+        - Billing Director
+        - IT Manager
+        - Office Administrator
+        - Consultant
+        - Other
+    validations:
+      required: true
+
+  - type: input
+    id: specialty
+    attributes:
+      label: Practice Specialty
+      description: What type of practice? (e.g., Orthopedics, Primary Care, Cardiology)
+      placeholder: "Orthopedics"
+    validations:
+      required: false
+
+  - type: input
+    id: providers
+    attributes:
+      label: Number of Providers
+      description: How many providers in your practice?
+      placeholder: "5"
+    validations:
+      required: false
+
+  - type: input
+    id: claims
+    attributes:
+      label: Monthly Claim Volume
+      description: Approximately how many claims per month?
+      placeholder: "500"
+    validations:
+      required: false
+
+  - type: dropdown
+    id: billing-setup
+    attributes:
+      label: Current Billing Setup
+      options:
+        - In-house billing team
+        - Outsourced to billing company
+        - Hybrid (some in-house, some outsourced)
+        - Don't know/Not involved in billing
+    validations:
+      required: false
+
+  - type: checkboxes
+    id: interests
+    attributes:
+      label: What interests you most?
+      description: Select all that apply
+      options:
+        - label: AI medical coding (94% accuracy)
+        - label: Smart payment matching (92% auto-match)
+        - label: Attorney lien portal for PI cases
+        - label: Real-time analytics dashboard
+        - label: Fast setup time (2-3 days)
+        - label: Transparent pricing (no % of collections)
+        - label: Month-to-month contracts
+        - label: Works with my current EMR
+
+  - type: checkboxes
+    id: concerns
+    attributes:
+      label: What concerns do you have?
+      description: Select all that apply
+      options:
+        - label: AI coding accuracy - will it make mistakes?
+        - label: Integration with our specific EMR
+        - label: Cost compared to current solution
+        - label: Staff training and change management
+        - label: HIPAA compliance and data security
+        - label: Contract terms and lock-in
+        - label: Support responsiveness
+        - label: Works for our specialty?
+
+  - type: textarea
+    id: pain-point
+    attributes:
+      label: Current Biggest Billing Pain Point
+      description: What frustrates you most about your current billing process?
+      placeholder: |
+        Be specific! Examples:
+        - "Denials take weeks to work, staff is overwhelmed"
+        - "Current vendor takes 45 days to post payments"
+        - "We have $500K in aged attorney claims, no tracking system"
+    validations:
+      required: true
+
+  - type: textarea
+    id: switch-reason
+    attributes:
+      label: What Would Make You Consider Switching?
+      description: What specific improvements would justify changing your current setup?
+      placeholder: |
+        Examples:
+        - "Reduce denials below 10%"
+        - "Cut billing staff costs by 30%"
+        - "Better visibility into our AR"
+        - "Faster attorney claim resolution"
+    validations:
+      required: false
+
+  - type: dropdown
+    id: likelihood
+    attributes:
+      label: Likelihood to Recommend Reviewing This Platform
+      options:
+        - "🙂 Very likely - This addresses our needs"
+        - "😊 Somewhat likely - Interesting, want to learn more"
+        - "😐 Neutral - Maybe, need more information"
+        - "😕 Unlikely - Not a good fit for us"
+        - "❌ Would not recommend - Major concerns"
+    validations:
+      required: true
+
+  - type: textarea
+    id: additional
+    attributes:
+      label: Additional Comments
+      description: Any other thoughts, questions, or suggestions?
+      placeholder: |
+        - Features you'd like to see
+        - Questions about how it works
+        - Concerns not listed above
+        - Suggestions for improvement
+    validations:
+      required: false
+
+  - type: dropdown
+    id: followup
+    attributes:
+      label: May we contact you for follow-up?
+      options:
+        - "No - Keep my feedback anonymous"
+        - "Yes - I'll provide contact info in comments"
+    validations:
+      required: true
+
+  - type: markdown
+    attributes:
+      value: |
+        ---
+        
+        ## What happens next?
+        
+        1. **We review your feedback** within 24-48 hours
+        2. **Common themes** get added to our roadmap
+        3. **Specific questions** get answered in the issue thread
+        4. **Aggregated insights** shared in our feedback dashboard (no personal info)
+        
+        Thank you for helping us build a better RCM solution! 🙏

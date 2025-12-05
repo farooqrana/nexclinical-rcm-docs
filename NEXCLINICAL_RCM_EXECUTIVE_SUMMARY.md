@@ -207,7 +207,12 @@ A: Honest answer: Works best with practices doing >200 claims/month. Below that,
 ### Option 3: ROI Calculator
 - Enter your current billing costs, denial rate, staff count
 - Get personalized projection of savings
-- Available at: nexclinical.com/roi-calculator
+
+### Option 4: Share Your Feedback
+- Tell us what you think about this RCM platform
+- What features matter most to your practice?
+- What concerns do you have?
+- **[Provide Feedback →](#feedback-form)**
 
 ---
 
@@ -252,28 +257,126 @@ A: Honest answer: Works best with practices doing >200 claims/month. Below that,
 
 ## 📧 Contact
 
-**Sales/Demo**: sales@nexclinical.com | (555) 123-4567  
-**Website**: www.nexclinical.com  
-**Free ROI Calculator**: nexclinical.com/roi  
-
-**LinkedIn**: linkedin.com/company/nexclinical  
-**Case Studies**: nexclinical.com/customers
+**For More Information**: Contact via the feedback form below  
+**Request Demo**: Use the feedback form to schedule a personalized demo  
+**Questions**: Submit questions through the feedback form
 
 ---
 
-## 🎁 Special Offer (Limited Time)
+---
 
-**For practices committing by December 31, 2025**:
-- ✅ First month free ($1,997-$3,997 value)
-- ✅ Free advanced training (2 hours, $500 value)
-- ✅ Priority implementation (2-day setup guaranteed)
-- ✅ Free attorney portal module (normally $500/month)
+## 💬 We Want Your Feedback! {#feedback-form}
 
-**Total Value**: Up to $5,997
+**Help us understand what healthcare providers need**
+
+We're seeking honest feedback from doctors and practice managers about this RCM platform concept. Your input will help us prioritize features and address real-world concerns.
+
+### Quick Feedback Survey (2 Minutes)
+
+**1. Your Role:**
+- [ ] Physician/Provider
+- [ ] Practice Manager
+- [ ] Billing Director
+- [ ] IT Manager
+- [ ] Other: __________
+
+**2. Your Practice:**
+- Number of providers: __________
+- Specialty: __________
+- Monthly claim volume: __________
+- Current billing setup: [ ] In-house [ ] Outsourced [ ] Hybrid
+
+**3. What interests you most?** (Select all that apply)
+- [ ] AI medical coding
+- [ ] Payment matching automation
+- [ ] Attorney lien portal
+- [ ] Real-time analytics
+- [ ] Fast setup time
+- [ ] Pricing transparency
+- [ ] Other: __________
+
+**4. What concerns do you have?** (Select all that apply)
+- [ ] AI coding accuracy
+- [ ] Integration with our EMR
+- [ ] Cost vs. current solution
+- [ ] Staff training required
+- [ ] HIPAA/security
+- [ ] Contract terms
+- [ ] Other: __________
+
+**5. Current biggest billing pain point:**
+```
+[Your answer here - be specific!]
+
+
+
+```
+
+**6. What would make you consider switching?**
+```
+[Your answer here]
+
+
+
+```
+
+**7. Likelihood to recommend reviewing this platform:**
+- [ ] 😀 Very likely
+- [ ] 🙂 Somewhat likely
+- [ ] 😐 Neutral
+- [ ] 😕 Unlikely
+- [ ] ❌ Would not recommend
+
+**8. Additional Comments:**
+```
+[Any other thoughts, questions, or suggestions]
+
+
+
+
+```
+
+**9. May we contact you for follow-up?**
+- [ ] Yes - Email: __________________
+- [ ] No - Keep my feedback anonymous
+
+---
+
+### How to Submit Feedback
+
+**Option A: GitHub Issues** (Recommended)
+1. Go to: https://github.com/farooqrana/nexclinical-rcm-docs/issues
+2. Click "New Issue"
+3. Title: "Feedback from [Your Role] at [Practice Type]"
+4. Paste your completed survey
+5. Submit (can be anonymous with throwaway GitHub account)
+
+**Option B: Email**
+- Copy your completed survey
+- Email to the repository owner (see GitHub profile)
+- Subject: "RCM Platform Feedback"
+
+**Option C: Private Feedback**
+- Create a GitHub account
+- Send direct message to repository owner
+- Your feedback stays private
+
+---
+
+## 📊 Live Feedback Dashboard
+
+**Want to see what others think?**
+
+View aggregated feedback from doctors and practice managers:
+- Common concerns addressed
+- Most requested features
+- Real pain points from practices like yours
+
+**[View Feedback Dashboard →](https://github.com/farooqrana/nexclinical-rcm-docs/issues?q=is%3Aissue+label%3Afeedback)**
 
 ---
 
 *This document is designed for quick review by busy healthcare providers. For technical details, implementation guides, and full case studies, see the comprehensive platform overview.*
 
 **Last Updated**: December 2025  
-**Version**: 2.0 - Executive Summary
+**Version**: 2.1 - Executive Summary with Feedback
